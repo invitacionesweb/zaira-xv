@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Zaira</title>
+</head>
+<body>
+    <header class="parallax" id="parallax">
+       <div class="frenteflores">
+
+       </div>
+
+       <img class="arrowdoble" src="./figuras/icons8-doble-izquierda-64.png" alt="">
+
+    </header>
+
+    <div class="audiodiv">
+        <audio id="myAudio" preload="none">
+            <source src="./clocks.mp3" type="audio/mpeg">
+        </audio>
+        <div id="playPauseBtn" class="play">
+            <img src="./figuras/notamusical.png" alt="Icono de música">
+        </div>
+    </div>
+    <h2 class="titulocontador">PREPARATE, FALTAN:</h2>
+    <div class="contador">
+
+        <div class="bloque">
+          <div id="dias" class="numero"></div>
+          <div class="etiqueta">Días</div>
+        </div>
+
+        <div class="bloque">
+          <div id="horas" class="numero"></div>
+          <div class="etiqueta">horas</div>
+        </div>
+
+        <div class="bloque">
+          <div id="minutos" class="numero"></div>
+          <div class="etiqueta">minutos</div>
+        </div>
+
+        <div class="bloque">
+          <div id="segundos" class="numero"></div>
+          <div class="etiqueta">segundos</div>
+        </div>
+    </div>
+
+    <div class="ubicacion">
+        <div class="ubicacion-bloque">
+            <img   data-aos="fade-up"  class="icon"   src="./figuras/fiesta.png" alt="fiesta">
+            <h2  data-aos="fade-up"  >FIESTA</h2>
+            <br>
+            <img  data-aos="fade-up"  class="datos" src="./img/fecha.png" alt="">
+            <p  data-aos="fade-up"  ><strong>Te espero en <br>Polideportivo Ceibas </strong><br> Hacé clic para saber cómo llegar </p>
+            <a  data-aos="fade-up" target="_blank"  class="boton" href="https://www.google.com/maps/dir//G634%2B5J+Polideportivo+ceibas,+2823,+Ceibas,+Entre+R%C3%ADos/@-33.4987033,-58.8012847,685m/data=!3m1!1e3!4m18!1m8!3m7!1s0x95bae96a6d3c5805:0x633da9a627ae5063!2sPolideportivo+ceibas!8m2!3d-33.4973602!4d-58.7974377!15sChdQb2xpZGVwb3J0aXZvIGRlIGNlaWJhc5IBC3NvY2Nlcl9jbHVi4AEA!16s%2Fg%2F11s3qq50sb!4m8!1m0!1m5!1m1!1s0x95bae96a6d3c5805:0x633da9a627ae5063!2m2!1d-58.797427!2d-33.4973592!3e0?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+        </div>
+    </div>
+
+  
+         <div  data-aos="fade-up"  class="galeria1">
+        <img  class="f1" src="./img/1.png" alt="FOTO">
+        <img  class="f4" src="./img/1.png" alt="FOTO">
+        <img class="f4" src="./img/1.png"  alt="FOTO">
+        <img class="f4" src="./img/1.png"  alt="FOTO">
+    </div>
+
+
+   <div   class="dresscode">
+        <img  data-aos="fade-up"  class="icon"  src="./figuras/monno.png" alt="fiesta">
+        <h2  data-aos="fade-up"  >DRESS CODE - FORMAL</h2>
+    </div>
+
+
+    
+
+
+    <div class="ubicacion" >
+        <br>
+        <div  class="ubicacion-bloque">
+            <img data-aos="fade-up"  class="icon" src="./figuras/instagram.png" alt="instagram">
+            <h2  data-aos="fade-up" >INSTAGRAM</h2>
+            <p  data-aos="fade-up" >¡No me quiero perder de nada! Compartí las fotos y videos de la fiesta y no olvides etiquetarme.</p>
+            <a  data-aos="fade-up" target="_blank"  class="boton" href="#">@XXX</a>
+        </div>
+ <!--
+             <div class="ubicacion-bloque">
+            <img  data-aos="fade-up"  class="icon"  src="./figuras/spotify.png" alt="playlist">
+            <h2  data-aos="fade-up" >PLAYLIST</h2>
+            <p  data-aos="fade-up" >¡Quiero que nos divirtamos juntos! <br>
+              Ayudame desde ya a hacer
+              la playlist de mi fiesta con las canciones infaltables,
+              las que querés oír y bailar</p>
+            <a  data-aos="fade-up" target="_blank"   class="boton" href="https://open.spotify.com/playlist/3XoeXW7ySua0KVTpp3qoS9?si=SmdrSi03T8eR7Z2Xbp8BBg&utm_source=whatsapp&pi=adrJ4q8gRhmFs&pt=c9c44080a7a7470964c75e3bb8844ed4">  PLAYLIST  </a>
+        </div>
+      
+        -->
+        <br>
+    </div>
+
+
+   
+
+          <div  data-aos="fade-up"  class="galeria2">
+        <img  class="f1" src="./img/2.png" alt="FOTO">
+        <img  class="f1" src="./img/3.png" alt="FOTO">
+        <img class="f4" src="./img/2.png"  alt="FOTO">
+        <img class="f4" src="./img/3.png"  alt="FOTO">
+    </div>
+   <div class="caja">
+        <div  class="ubicacion-bloque dos" >
+            <img  data-aos="fade-up"  class="icon"  src="./figuras/giftcard.png" alt="giftcard">
+            <h2  data-aos="fade-up" >MESA DE REGALOS</h2>
+            <p  data-aos="fade-up" >
+             
+Mi mejor regalo, en este día tan especial es tu presencia
+pero si deseas obsequiarme algo...
+podes consultar mi cuenta acá:</p>
+
+           <br>
+              <a  data-aos="fade-up"  class="boton" onclick="copyToClipboard('ESTO ES UN EJEMPLO')">ALIAS</a> <br>
+          <br>
+            <p  data-aos="fade-up" >Hace clic para copiar los datos de la cuenta. Titular: XXXXX </p>
+        </div>
+    </div>
+
+
+
+<div  class="forms" >
+    <img  data-aos="fade-up"  class="icon" src="./figuras/asistencia.png" alt="asistencia">
+
+
+  <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbwItyxO9XRlKp_jUKdnEyh06nRT1BA8O8pNn66xAgYLUszEIQTyeTpbTHtH6zNnqJrF/exec" class="formulario">
+
+    <label data-aos="fade-up" class="formtitle">¿Venís? Confirma tu asistencia</label>
+
+    <div class="radio-group">
+        <label class="radio-option">
+        <input type="radio" name="ASISTENCIA" value="sí" required />
+        <span>Sí</span>
+        </label>
+        <label class="radio-option">
+        <input type="radio" name="ASISTENCIA" value="no" />
+        <span>No</span>
+        </label>
+    </div>
+
+    <input type="text" name="NOMBRE" placeholder="Nombre" required />
+    <input type="text" name="APELLIDO" placeholder="Apellido" required />
+    <select name="DIETA" required>
+        <option value="" disabled selected>¿Alguna dieta especial?</option>
+        <option value="Nada">Nada / Como de todo</option>
+        <option value="Vegetariano">Vegetariano</option>
+        <option value="Vegano">Vegano</option>
+        <option value="Celíaco">Celíaco</option>
+    </select>
+ 
+   
+    <textarea name="MENSAJE" placeholder="Dejale un mensaje a Zaira" ></textarea>
+        <textarea name="CANCION" placeholder="Recomendale una canción al DJ 🎶" ></textarea>
+
+    
+    <button type="submit" class="boton3">ENVIAR</button>
+</form>
+</div>
+
+
+       <div  data-aos="fade-up"  class="galeria1">
+        <img  class="f1" src="./img/4.png" alt="FOTO">
+        <img  class="f4" src="./img/4.png" alt="FOTO">
+        <img class="f4" src="./img/4.png"  alt="FOTO">
+        <img class="f4" src="./img/4.png"  alt="FOTO">
+    </div>
+
+ 
+
+   
+    <div class="end">
+      <div class="end-names">
+        <img  data-aos="fade-in"  src="./figuras/endnames.png" alt="">
+      </div>
+    </div>
+    <footer>
+      <div class="contenido">
+       <div>
+         <img src="./img/logosiquiero.png" alt="icono si quiero">
+           <p>Hecho con &hearts; <br>
+           &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+           <br> Todos los derechos reservados.</p>
+       </div>
+
+       <div class="contenido-list">
+           <ul>
+               <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+               <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+               <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+             </ul>
+       </div>
+      </div>
+
+   </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.getElementById("myAudio");
+
+        // Escucha el primer scroll
+        const playOnScroll = () => {
+          audio.play().catch(e => {
+            console.warn("El navegador bloqueó la reproducción automática", e);
+          });
+          document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+        };
+
+        document.addEventListener("scroll", playOnScroll);
+      });
+    </script>
+     <script>
+
+
+
+      const parallax = document.getElementById("parallax");
+
+      window.addEventListener("scroll", () => {
+        const scrollY = window.scrollY;
+        parallax.style.backgroundPositionY = `${scrollY * 0.5}px`; /* Ajusta la velocidad con 0.5 */
+      });
+    </script>
+
+   <script>
+    const parallax = document.getElementById("parallax");
+
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      parallax.style.backgroundPositionY = `${scrollY * 0.5}px`; /* Ajusta la velocidad con 0.5 */
+    });
+  </script>
+
+
+
+
+     <script>
+
+        function copyToClipboard(text) {
+           const tempInput = document.createElement("input");
+           document.body.appendChild(tempInput);
+           tempInput.value = text;
+           tempInput.select();
+           document.execCommand("copy");
+           document.body.removeChild(tempInput);
+           alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+         }
+       </script>
+      <script src="reproductor.js"></script>
+      <script src="form.js"></script>
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+    </script>
+</body>
+</html>
